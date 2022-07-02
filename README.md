@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-clone this repository and type $ npm install for dependencies
+Clone this repository and type $ npm install for dependencies
 
 
 
