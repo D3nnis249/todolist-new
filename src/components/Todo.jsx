@@ -8,7 +8,7 @@ const Todo = ({ message, deleteTodo }) => {
   return (
     <li id="todo" key={message.id}>
       <p id="message__text">{message.text}</p>
-      <button id="todo__delete" onClick={handleSubmit}>
+      <button type="submit" id="todo__delete" onClick={handleSubmit}>
         Delete
       </button>
     </li>
