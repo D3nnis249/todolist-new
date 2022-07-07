@@ -13,7 +13,6 @@ const App = () => {
 
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(messageList));
-    console.log(typeof messageList);
   }, [messageList]);
 
   const addTodo = message => {
